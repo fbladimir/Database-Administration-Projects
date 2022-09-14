@@ -1,0 +1,331 @@
+Tables: 
+
+color (DONE) 
+     1  alice_blue - 2
+     2  antique_white - 3
+     3  aqua - 12
+     4  aquamarine - 8
+     5  azure - 9 
+     6  beige - 4
+     7  bisque - 7 
+     8  black - 5 
+     9  blanched_almond - 5
+    10  blue - 5 
+    11  blue_violet - 8 
+    12  brown - 6 
+    13  burlywood - 2 
+    14  cadet_blue - 6 
+    15  chartreuse - 9
+    16  chocolate - 2 
+    17  coral - 8 
+    18  cornflower_blue - 7 
+    19  cornsilk - 6 
+    20  crimson - 15 
+    21  cyan - 6 
+    22  dark_blue - 9 
+    23  dark_cyan - 10 
+    24  dark_goldenrod - 9
+    25  dark_gray - 6  
+    26  dark_green - 6 
+    27  dark_khaki - 9 
+    28  dark_magenta - 13 
+    29  dark_olive_green - 8 
+    30  dark_orange - 7 
+    31  dark_orchid - 9 
+    32  dark_red - 7 
+    33  dark_salmon - 7 
+    34  dark_sea_green - 9 
+    35  dark_slate_blue - 4 
+    36  dark_slate_gray - 5 
+    37  dark_turquoise - 5 
+    38  dark_violet - 7 
+    39  deep_pink - 2 
+    40  deep_sky_blue - 3 
+    41  dim_gray - 3 
+    42  dodger_blue - 9
+    43  firebrick - 8
+    44  floral_white - 10 
+    45  forest_green - 8 
+    46  fuchsia - 4 
+    47  gainsboro - 7 
+    48  ghost_white - 2 
+    49  gold - 7 
+    50  goldenrod - 5 
+    51  gray - 6 
+    52  green - 7 
+    53  green_yellow - 6 
+    54  honeydew - 6 
+    55  hot_pink - 9 
+    56  indian_red - 9 
+    57  indigo - 10 
+    58  "ivory" - 13
+    59  "khaki"- 7 
+    60  "lavender" - 7 
+    61  "lavender_blush" - 9
+    62  "lawn_green" - 11 
+    63  "lemon_chiffon" - 6 
+    64  "light_blue" - 8
+    65  "light_coral" - 2 
+    66  "light_cyan" - 9
+    67  "light_goldenrod" - 9
+    68  "light_gray" - 9
+    69  "light_green" - 9
+    70  "light_pink" - 5 
+    71  "light_salmon" - 9
+    72  "light_sea_green" - 8 
+    73  "light_sky_blue" - 7
+    74  "light_slate_gray" - 5 
+    75  "light_steel_blue" - 7
+    76  "light_yellow" - 5
+    77  "lime" - 8
+    78  "lime_green" - 6 
+    79  "linen" - 8
+    80  "magenta" - 8
+    81  "maroon" - 9
+    82  "medium_aquamarine" - 5
+    83  "medium_blue" - 7
+    84  "medium_orchid" - 7
+    85  "medium_purple" - 7
+    86  "medium_sea_green" - 8
+    87  "medium_slate_blue" - 5
+    88  "medium_spring_green" - 12
+    89  "medium_turquoise" - 12
+    90  "medium_violet_red" - 6
+    91  "midnight_blue" - 3
+    92  "mint_cream" - 5
+    93  "misty_rose" - 6
+    94  "moccasin" - 10
+    95  "navajo_white" - 6
+    96  "navy_blue" - 9
+    97  "old_lace" - 5
+    98  "olive" -3 
+    99  "olive_drab" - 4
+   100  "orange" - 5
+   101  "orange_red" - 4
+   102  "orchid" - 9
+   103  "pale_goldenrod" - 5 
+   104  "pale_green" - 6
+   105  "pale_turquoise" - 5
+   106  "pale_violet_red" - 6 
+   107  "papaya_whip" - 5
+   108  "peach_puff" - 7
+   109  "peru" - 12 
+   110  "pink" - 6 
+   111  "plum" - 7
+   112  "powder_blue" - 4
+   113  "purple" - 3
+   114  "rebecca_purple" - 5
+   115  "red" - 8
+   116  "rosy_brown" - 10
+   117  "royal_blue" - 10
+   118  "saddle_brown" - 8
+   119  "salmon" - 8
+   120  "sandy_brown" - 6
+   121  "sea_green" - 9
+   122  "seashell" - 2 
+   123  "sienna" - 6 
+   124  "silver" - 8
+   125  "sky_blue" - 4 
+   126  "slate_blue" - 10
+   127  "slate_gray" - 8
+   128  "snow" - 9
+   129  "spring_green" - 3
+   130  "steel_blue" - 9
+   131  "tan" - 5 
+   132  "teal" - 8
+   133  "thistle" - 12
+   134  "tomato" - 5
+   135  "turquoise" - 8
+   136  "violet" - 9
+   137  "web_gray" - 7
+   138  "web_green" - 4 
+   139  "web_maroon" - 7
+   140  "web_purple" - 5 
+   141  "wheat" - 10
+   142  "white" - 8
+   143  "white_smoke" - 7
+   144  "yellow" - 2 
+   145  "yellow_green" - 6
+
+
+country 
+
+1  "albania" - 10
+2  "algeria" - 8
+3  "angola" - 10
+4  "argentina" - 7
+5  "australia" - 13
+6  "austria" - 10
+7  "azerbaijan" - 12
+8  "bahamas" - 6
+9  "bahrain" - 9
+10  "bangladesh" - 3
+11  "barbados" - 10
+12  "belarus" - 9
+13  "belgium" - 7
+14  "bosnia_and_herzegovina" - 7
+15  "botswana" - 6
+16  "brazil" - 5
+17  "british_virgin_islands" - 4
+18  "bulgaria" - 10
+19  "burkina_faso" - 9
+20  "burundi" - 7
+21  "canada" - 13
+22  "cayman_islands" - 9
+23  "chad" - 8
+24  "chile" - 7
+25  "china" - 7
+26  "chinese_taipei" - 5
+27  "colombia" - 9
+28  "costa_rica" - 7
+29  "croatia" - 8
+30  "cuba" - 10
+31  "cyprus" - 12
+32  "czech_republic" - 13
+33  "denmark" - 11
+34  "djibouti" - 7
+35  "dominican_republic" - 7
+36  "ecuador" - 7
+37  "egypt" - 7
+38  "el_salvador" - 8
+39  "eritrea" - 6
+40  "estonia" - 7
+41  "ethiopia" - 6
+42  "fiji" - 5
+43  "finland" - 4
+44  "france" - 7
+45  "georgia" - 8
+46  "germany" - 8
+47  "ghana" - 7
+48  "great_britain" - 9
+49  "greece" - 6
+50  "grenada" - 10
+51  "guatemala" - 9
+52  "guyana" - 9
+53  "hong_kong" - 6
+54  "hungary" - 8
+55  "iceland" - 7
+56  "india" - 14
+57  "indonesia" - 10
+58  "iran" - 11
+59  "ireland" - 6
+60  "israel" - 12
+61  "italy" - 7
+62  "ivory_coast" - 17
+63  "jamaica" - 5
+64  "japan" - 5
+65  "kazakhstan" - 7
+66  "kenya" - 8
+67  "kuwait" - 5 
+68  "latvia" - 10
+69  "liberia" - 7
+70  "liechtenstein" - 9
+71  "lithuania" - 4
+72  "luxembourg" - 11
+73  "malaysia" - 9
+74  "mexico" - 8
+75  "moldova" - 10
+76  "mongolia" - 6
+77  "morocco" - 9
+78  "namibia" - 7
+79  "netherlands" - 6
+80  "new_zealand" - 14
+81  "niger" - 13
+82  "nigeria" - 8
+83  "north_korea" - 13
+84  "norway" - 8
+85  "pakistan" - 9
+86  "peru" - 8
+87  "philippines" - 7
+88  "poland" - 15
+89  "portugal" - 12 
+90  "puerto_rico" - 9
+91  "qatar" - 7
+92  "romania" - 10
+93  "russia" - 7
+94  "rwanda" - 12
+95  "samoa" - 6
+96  "san_marino" - 12
+97  "sao_tome_and_principe" - 4
+98  "serbia" - 9
+99  "singapore" - 6
+100 "slovakia" - 10
+101 "slovenia" - 7
+102 "south_africa" - 8
+103 "south_korea" - 4
+104 "spain" - 6
+105 "sweden" - 8
+106 "switzerland" - 5
+107 "tanzania" - 8
+108 "thailand" - 9
+109 "the_gambia" - 9
+110 "trinidad_and_tobago" - 11
+111 "tunisia" - 9
+112 "turkey" - 3
+113 "uganda" - 12
+114 "ukraine" - 11
+115 "united_states" - 11
+116 "uruguay" - 8
+117 "uzbekistan" - 8
+118 "venezuela" - 6
+119 "vietnam" - 11
+120 "zambia" - 5
+
+fruits (DONE) 
+
+1  "apples" - 54
+2  "avocados" - 52
+3  "bananas" - 45
+4  "blackberries" - 51 
+5  "blueberries" - 62
+6  "cantaloupe" - 54
+7  "cherries" - 39
+8  "grapes" - 67
+9  "lemons" - 52
+10 "limes" - 39
+11 "mangoes" - 48
+12 "nectarines" - 58
+13 "oranges" - 35
+14 "peaches" - 42
+15 "pears" - 49
+16 "pineapple" - 59
+17 "plums" - 46
+18 "raspberries" - 38
+19 "strawberries" - 55
+20 "watermelon" - 55
+
+gender (DONE) 
+
+m: 409
+f:  591
+
+os (DONE) 
+
+mac: 510
+windows: 490  
+
+permission (DONE) 
+
+insert into permission values ('all' , 124);
+insert into permission values ('create' , 137); 
+insert into permission values ('delete' , 128);  
+insert into permission values ('drop' , 124); 
+insert into permission values ('execute' , 111);
+insert into permission values ('insert' , 128);
+insert into permission values ('select' , 117); 
+insert into permission values ('update' , 131);   
+     1  all - 124
+     2  create - 137 
+     3  delete - 128 
+     4  drop - 124
+     5  execute - 111
+     6  insert - 128 
+     7  select - 117
+     8  update - 131 
+
+shell (DONE) 
+
+     1  /bin/bash - 227
+     2  /bin/csh - 251 
+     3  /bin/ksh - 265 
+     4  /bin/tcsh - 257 

@@ -1,0 +1,1 @@
+curl http://users.cis.fiu.edu/~ggome002/files/fcano009.csv > fcano009.csv

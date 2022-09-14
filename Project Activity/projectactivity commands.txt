@@ -1,0 +1,59 @@
+
+34.133.9.214
+
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/
+
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "SELECT * FROM audit;"  
+
+//gender for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/gender.data' INTO TABLE gender FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//country for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/country.data' INTO TABLE country FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//color for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/color.data' INTO TABLE color FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//fruits for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/fruits.data' INTO TABLE fruits FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//os for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/os.data' INTO TABLE os FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//shell for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/shell.data' INTO TABLE shell FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//permission for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/permission.data' INTO TABLE permission FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//user for assignment 6 
+mysql -D fcano009_a6 -e "LOAD DATA LOCAL INFILE '/root/normalizedFixed.data' INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+
+
+
+
+//os 
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/os.data' INTO TABLE os FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';" 
+//color
+ mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/color.data' INTO TABLE color FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+//gender
+ mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/gender.data' INTO TABLE gender FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+//country 
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/country.data' INTO TABLE country FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+//fruits 
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/fruits.data' INTO TABLE fruits FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+//permission 
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/permission.data' INTO TABLE permission FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+//shell 
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/shell.data' INTO TABLE shell FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//user
+mysql -h 34.133.9.214 -u root -p5924601 -D project -e "LOAD DATA LOCAL INFILE '/root/normalizedFixed.data' INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';"
+
+//to check data for project 
+mysql -h 34.133.9.214 -u root -p5924601 -sN -D project < query  | sed -e 's/\t/,/g'  | sort -t"," -k1 | md5sum
+
+
+//how to delete table data 
+DELETE FROM `gender`;

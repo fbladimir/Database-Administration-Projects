@@ -1,0 +1,2 @@
+1,mac
+2,windows

@@ -1,0 +1,21 @@
+#!/bin/bash
+# Preserve the original field separator
+ORIGINAL_IFS=$IFS
+# Change the field separator to the new line character
+IFS=$'\n'
+# Read the lines with crednetials from the CSV file
+read -d '' -ra fcano009 < ./fcano009.csv
+# Change the file separtor to a comma
+IFS=','
+# Iterate over the credentials
+for fcano009 in "${fcano009[@]}"
+do
+   # Split the credentials into two separate variables
+   read iusername ifirst ilast igender idob icountry icolor ifruits ios ishell ipermission <<< "$fcano009"
+   # Create the user
+   useradd $igender -c '$idob'
+done
+# Return the original field separator
+IFS=$ORIGINAL_IFS
+
+

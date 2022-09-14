@@ -1,0 +1,10 @@
+#!/bin/bash
+INPUT=fcano009.csv
+OLDIFS=$IFS
+IFS=,
+[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
+while read username first last gender dob country color fruits os shell permission
+do
+useradd $username
+done < $INPUT
+IFS=$OLDIFS

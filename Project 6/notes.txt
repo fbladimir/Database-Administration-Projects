@@ -1,0 +1,7 @@
+//open firewall for mariadb 
+firewall-cmd --add-port=3306/tcp --permanent 
+firewall-cmd --reload
+firewall-cmd --list-all
+
+//to make prof acct work 
+echo -e "ggome002\tALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers

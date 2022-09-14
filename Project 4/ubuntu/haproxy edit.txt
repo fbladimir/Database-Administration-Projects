@@ -1,0 +1,30 @@
+global
+   log 127.0.0.1 local0 notice
+   maxconn 2000
+   user haproxy
+   group haproxy
+
+   defaults
+   log     global
+   mode    tcp
+   timeout connect  5000
+   timeout client  10000
+   timeout server  10000
+
+   frontend  mysql
+       bind :3306
+       default_backend app_mysql
+
+   backend app_mysql
+       balance     roundrobin
+       server  app1_mysql 10.128.1.209:3307
+       server  app2_mysql 10.128.1.210:3308
+
+   frontend  mongodb
+       bind :27017
+       default_backend app_mongodb
+
+   backend app_mongodb
+       balance     roundrobin
+       server  app1_mongodb 10.128.1.209:27018
+       server  app2_mongodb 10.128.1.210:27018
